@@ -1,0 +1,31 @@
+/* VERSI 3: Sakura Blush - pink lembut, kelopak jatuh, foto bentuk organik, pita tanggal */
+.v3{--cream:#FFF8F5;--sand:#FDE8EC;--taupe:#D98BA3;--brown:#C2677F;--ink:#5A3A44;--gold:#E8A0B4;--ease:cubic-bezier(.25,.8,.25,1);background:#F6D7DF;font-family:Quicksand,system-ui,sans-serif}
+.v3 h1,.v3 h2,.v3 h3,.v3 .cd b,.v3 .ev-d b,.v3 .guest b{font-family:Parisienne,'Cormorant Garamond',cursive;font-weight:400}
+.v3 h2{font-size:2.5rem}.v3 h3{font-size:1.9rem}
+.v3 .btn{background:linear-gradient(135deg,#F59CB5,#C2677F);box-shadow:0 6px 14px rgba(194,103,127,.3)}
+.v3 .btn.ghost{background:transparent;color:var(--brown);box-shadow:none;border:1px solid var(--brown)}
+.v3 .leaf,.v3 .taupe .leaf{color:#F3B3C4;opacity:.8}
+.v3 .wave{display:none}
+.v3 .veil{background:linear-gradient(transparent 45%,rgba(255,235,240,.3))}
+.v3 .cover-body{margin:0 12px;padding:30px 20px 34px;background:linear-gradient(#FFEEF2,#FFF8F5);border-radius:36px 36px 0 0;box-shadow:0 -10px 30px rgba(194,103,127,.2)}
+.v3 .cover small{color:var(--brown);letter-spacing:.3em}
+.v3 .cover h1{font-size:3.4rem;color:var(--brown);margin:4px 0}
+.v3 .parts i{top:-14px;bottom:auto;width:12px!important;height:9px!important;background:#F8C0CF;border-radius:80% 0 80% 0;animation:petal linear infinite}
+@keyframes petal{to{transform:translate(50px,110vh) rotate(420deg);opacity:.2}}
+.v3 .cd div{background:rgba(255,255,255,.28);border-radius:20px}
+.v3 .ph{width:210px;margin-bottom:36px}
+.v3 .ph::before,.v3 .mp.alt .ph::before{border:0;background:#F8C8D4;border-radius:42% 58% 45% 55%/58% 50% 50% 42%;transform:translate(10px,10px) rotate(-4deg)}
+.v3 .ph-in,.v3 .mp.alt .ph-in{aspect-ratio:1/1.05;border-radius:58% 42% 55% 45%/50% 58% 42% 50%;border:5px solid #fff}
+.v3 .mp h3{color:var(--brown)}
+.v3 .amp{font-family:Parisienne,cursive;font-style:normal;color:var(--gold);font-size:2.6rem}
+/* kartu acara: pita tanggal horizontal di atas */
+.v3 .ev{display:block;text-align:center;border-radius:28px;box-shadow:0 14px 34px rgba(217,139,163,.28)}
+.v3 .ev-d{flex-direction:row;gap:10px;background:linear-gradient(135deg,#F59CB5,#C2677F);padding:12px}
+.v3 .ev-d b{font-size:2.4rem;font-weight:400}
+.v3 .ev-i{padding:22px 22px 26px}
+.v3 .ev-i .t{background:#FDE8EC;color:var(--brown)}
+.v3 .gal img{border-radius:22px}
+.v3 .closing img{border-radius:50% 50% 24px 24px}
+/* animasi: melayang lembut */
+.v3 [data-anim=fade-up]{transform:translateY(20px) scale(.96)}
+.v3 [data-anim=zoom-in]{transform:scale(.85) rotate(-2deg)}

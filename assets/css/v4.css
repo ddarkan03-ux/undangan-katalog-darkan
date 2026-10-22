@@ -1,0 +1,43 @@
+/* VERSI 4: Midnight Starlight - biru malam mewah, bintang berkelip, tiket sobek */
+.v4{--cream:#0B1230;--sand:#111A3F;--taupe:#18245A;--brown:#C9A96E;--ink:#E9EAF5;--gold:#E6CC99;--ease:cubic-bezier(.16,1,.3,1);background:#050816;font-family:'Josefin Sans',system-ui,sans-serif}
+.v4 h1,.v4 h2,.v4 h3,.v4 .cd b,.v4 .ev-d b,.v4 .guest b{font-family:Cinzel,Georgia,serif;font-weight:400;letter-spacing:.06em}
+.v4 h2{font-size:1.55rem;text-transform:uppercase;letter-spacing:.22em;color:var(--gold)}
+.v4 h2::after{content:"\2726";display:block;font-size:.8rem;margin-top:10px}
+.v4 .wrap{background-image:radial-gradient(1px 1px at 20% 30%,rgba(255,255,255,.55),transparent),radial-gradient(1px 1px at 70% 60%,rgba(255,255,255,.4),transparent),radial-gradient(1.5px 1.5px at 40% 85%,rgba(255,255,255,.55),transparent);background-size:260px 260px}
+.v4 .btn{background:linear-gradient(135deg,#E6CC99,#B8935A);color:#0B1230}
+.v4 .btn.ghost{background:transparent;color:var(--gold);border:1px solid var(--gold)}
+.v4 .leaf,.v4 .taupe .leaf{color:var(--gold);opacity:.5}
+.v4 .cover{justify-content:center;text-align:center}
+.v4 .cover::after{content:"";position:absolute;inset:14px;border:1px solid rgba(230,204,153,.6);pointer-events:none}
+.v4 .veil{background:radial-gradient(circle,rgba(5,8,22,.35),rgba(5,8,22,.88))}
+.v4 .wave{display:none}
+.v4 .cover-body{background:transparent;color:#fff;padding:0 30px 40px}
+.v4 .cover small{color:var(--gold);letter-spacing:.4em}
+.v4 .cover h1{font-size:2.3rem;text-transform:uppercase;letter-spacing:.14em;line-height:1.3}
+.v4 .parts i{bottom:auto;background:#fff;box-shadow:0 0 8px 2px rgba(230,204,153,.8);animation:tw 3s ease-in-out infinite alternate;animation-duration:3s!important}
+.v4 .parts i:nth-child(4n+1){top:12%}.v4 .parts i:nth-child(4n+2){top:34%}.v4 .parts i:nth-child(4n+3){top:58%}.v4 .parts i:nth-child(4n){top:80%}
+@keyframes tw{from{opacity:.1;transform:scale(.5)}to{opacity:1;transform:scale(1.3)}}
+.v4 .glass,.v4 .bank,.v4 .msg{background:rgba(255,255,255,.07);color:#E9EAF5;border:1px solid rgba(230,204,153,.3);box-shadow:none}
+.v4 input,.v4 select,.v4 textarea{background:rgba(255,255,255,.08);color:#fff;border-color:rgba(255,255,255,.28)}
+.v4 ::placeholder{color:#aab0cc}.v4 select option{color:#111}
+.v4 .cd div{background:rgba(255,255,255,.06);border:1px solid rgba(230,204,153,.4)}
+.v4 .cd b{color:var(--gold)}
+.v4 .tm p{border-bottom-color:rgba(230,204,153,.4)}
+.v4 .ph{width:180px;margin-bottom:38px}
+.v4 .ph::before,.v4 .mp.alt .ph::before{inset:-10px;border:1px solid rgba(230,204,153,.5);border-radius:999px;transform:none}
+.v4 .ph-in{aspect-ratio:3/4.3;border-radius:999px;box-shadow:0 0 0 2px var(--gold),0 0 34px rgba(230,204,153,.35)}
+.v4 .amp{font-family:Cinzel,serif;font-style:normal;color:var(--gold)}
+/* kartu acara: tiket dengan sobekan tanggal di kanan */
+.v4 .ev{grid-template-columns:1fr 100px;overflow:visible;background:linear-gradient(135deg,#18245A,#0F1744);color:#E9EAF5;border:1px solid rgba(230,204,153,.5);border-radius:14px}
+.v4 .ev::before,.v4 .ev::after{content:"";position:absolute;right:90px;width:20px;height:20px;border-radius:50%;background:var(--cream);border:1px solid rgba(230,204,153,.5)}
+.v4 .ev::before{top:-11px}.v4 .ev::after{bottom:-11px}
+.v4 .ev-i{order:1}
+.v4 .ev-d{order:2;background:none;color:var(--gold);border-left:2px dashed rgba(230,204,153,.5)}
+.v4 .ev-d b{color:#fff;font-weight:400}
+.v4 .ev-i h3{color:var(--gold)}
+.v4 .ev-i .t{background:transparent;border:1px solid var(--gold);color:var(--gold)}
+.v4 .gal img{border-radius:4px}
+/* animasi: muncul dari kejauhan + blur */
+.v4 [data-anim=fade-up]{transform:translateY(40px);filter:blur(6px)}
+.v4 [data-anim=fade-left]{transform:translateX(-60px)}.v4 [data-anim=fade-right]{transform:translateX(60px)}
+.v4 [data-anim=zoom-in]{transform:scale(1.15)}.v4 [data-anim=blur-in]{filter:blur(14px)}

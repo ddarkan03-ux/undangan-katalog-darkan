@@ -1,0 +1,38 @@
+/* VERSI 5: Rustic Boho - kertas kraft, foto polaroid bertape, daun melayang, animasi memantul */
+.v5{--cream:#F3E9DA;--sand:#E7D6BC;--taupe:#7C8B6A;--brown:#B5603C;--ink:#4B3A2A;--gold:#B5603C;--ease:cubic-bezier(.34,1.56,.64,1);background:#CDB89A;font-family:Nunito,system-ui,sans-serif}
+.v5 h1,.v5 h2,.v5 h3,.v5 .cd b,.v5 .ev-d b,.v5 .guest b{font-family:Caveat,cursive;font-weight:700}
+.v5 h2{font-size:2.5rem}.v5 h3{font-size:2rem}
+.v5 .wrap{background-image:radial-gradient(rgba(120,90,50,.08) 1px,transparent 1.2px);background-size:14px 14px}
+.v5 .btn{background:var(--brown);border-radius:8px;box-shadow:2px 3px 0 #7A3B20}
+.v5 .btn.ghost{background:transparent;color:var(--brown);border:2px solid var(--brown);box-shadow:none}
+.v5 .leaf,.v5 .taupe .leaf{color:#7C8B6A;opacity:.8}
+.v5 .wave{display:none}
+.v5 .veil{background:linear-gradient(transparent 55%,rgba(0,0,0,.2))}
+.v5 .cover-body{margin-top:12px;padding:34px 24px 38px;background:var(--cream)}
+.v5 .cover-body::before{content:"";position:absolute;left:0;right:0;top:-10px;height:10px;background:linear-gradient(135deg,#F3E9DA 25%,transparent 25%) -10px 0/20px 20px,linear-gradient(225deg,#F3E9DA 25%,transparent 25%) -10px 0/20px 20px}
+.v5 .cover small{color:var(--taupe);font-weight:800}
+.v5 .cover h1{font-size:3.7rem;color:var(--brown);line-height:1}
+.v5 .parts i{background:#7C8B6A;border-radius:0 100% 0 100%;width:12px!important;height:12px!important;animation:drift linear infinite}
+.v5 .parts i:nth-child(2n){background:#B5603C}
+@keyframes drift{to{transform:translate(40px,-110vh) rotate(540deg);opacity:.2}}
+.v5 .ph{width:220px;margin-bottom:42px}
+.v5 .ph::before,.v5 .mp.alt .ph::before{inset:auto;top:-8px;left:50%;width:84px;height:24px;margin-left:-42px;border:0;border-radius:2px;background:rgba(222,190,130,.85);transform:rotate(-4deg);z-index:2}
+.v5 .ph-in{aspect-ratio:auto;border-radius:3px;background:#fff;padding:10px 10px 44px;transform:rotate(-3deg);box-shadow:0 10px 20px rgba(75,58,42,.28)}
+.v5 .mp.alt .ph-in{transform:rotate(3deg)}
+.v5 .ph-in img{height:auto;aspect-ratio:1/1.1}
+.v5 .amp{font-family:Caveat,cursive;font-style:normal;color:var(--taupe);font-size:2.8rem}
+/* kartu acara: label kertas miring + stempel tanggal */
+.v5 .ev{display:block;position:relative;overflow:visible;background:#FBF4E6;border:2px dashed var(--brown);border-radius:6px;transform:rotate(-1.2deg);margin-top:34px;box-shadow:3px 5px 0 rgba(75,58,42,.15)}
+.v5 .ev+.ev{transform:rotate(1.2deg)}
+.v5 .ev-d{position:absolute;right:12px;top:-30px;width:92px;height:92px;border-radius:50%;border:2px solid var(--brown);background:#FBF4E6;color:var(--brown);padding:0;gap:0;line-height:1.05;transform:rotate(10deg)}
+.v5 .ev-d small{font-size:.58rem}.v5 .ev-d span{font-size:.7rem}
+.v5 .ev-d b{font-size:2rem}
+.v5 .ev-i{padding:26px 20px 20px;padding-right:100px}
+.v5 .ev-i .t{background:var(--sand)}
+.v5 .gal img{border:6px solid #fff;border-radius:2px;box-shadow:0 4px 10px rgba(75,58,42,.2)}
+.v5 .closing img{border:8px solid #fff;border-radius:2px;transform:rotate(-2deg)}
+/* animasi: jatuh dan memantul miring */
+.v5 [data-anim=fade-up]{transform:translateY(50px) rotate(-3deg)}
+.v5 [data-anim=fade-left]{transform:translateX(-40px) rotate(-6deg)}
+.v5 [data-anim=fade-right]{transform:translateX(40px) rotate(6deg)}
+.v5 [data-anim=zoom-in]{transform:scale(.7) rotate(4deg)}

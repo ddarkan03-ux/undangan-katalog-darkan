@@ -1,0 +1,31 @@
+/* ==========================================================
+   TEMPLAT MODEL BARU - salin file ini menjadi assets/css/v8.css (dst), lalu ikuti README bagian
+   "Menambah model undangan baru". Dimuat SETELAH style.css, aktif lewat <body class="v8">.
+   Aturan emas: tulis semua selector dengan awalan .v8 agar tidak memengaruhi model lain.
+   ========================================================== */
+
+/* 1) Warna & font: cukup ubah bagian ini dulu, sudah menghasilkan tampilan baru */
+.v8{--cream:#FFFFFF;      /* latar halaman */
+    --sand:#F2F2F2;       /* bagian selang-seling terang */
+    --taupe:#444444;      /* bagian gelap/berwarna (teks putih) */
+    --brown:#444444;      /* warna tombol & aksen */
+    --ink:#222222;        /* warna teks */
+    --gold:#C9A96E;       /* aksen */
+    --ease:cubic-bezier(.22,1,.36,1);
+    background:#DDDDDD;   /* latar di luar kolom undangan (layar desktop) */
+    font-family:system-ui,sans-serif}
+.v8 h1,.v8 h2,.v8 h3,.v8 .cd b,.v8 .ev-d b,.v8 .guest b{font-family:Georgia,serif}
+
+/* 2) Daftar bagian yang bisa diubah (hapus komentar sesuai kebutuhan)
+   Cover        : .cover .slides .veil .parts(partikel) .wave(gelombang) .cover-body (small, h1, .guest, .row .btn)
+   Hitung mundur: .cd div b small
+   Mempelai     : .mp (.alt = mempelai kedua) .ph (bingkai) .ph::before/::after .ph-in(img) .amp (tanda &)
+   Love story   : .story (foto) .glass .ls
+   Acara        : .ev  .ev-d (blok tanggal: small hari, b angka, span bulan, small tahun)  .ev-i (h3, .t jam, p, .btn)
+   Lainnya      : .glass (kartu) .gal img  .bank  .msg  input/select/textarea  .tm p  .closing img  .music  .lb
+   Animasi      : [data-anim=fade-up|fade-down|fade-left|fade-right|zoom-in|blur-in] (keadaan awal, tulis transform/filter)
+                  .is-visible sudah diatur otomatis. Jika memakai clip-path, sisakan >25% area agar terdeteksi. */
+
+/* 3) Contoh: bentuk foto bulat */
+/* .v8 .ph::before,.v8 .mp.alt .ph::before{border-radius:50%} */
+/* .v8 .ph-in{aspect-ratio:1;border-radius:50%} */

@@ -1,0 +1,51 @@
+/* ===== VERSI 2: Emerald & Gold. Dimuat setelah style.css, aktif lewat <body class="v2"> ===== */
+.v2{--cream:#FAF7F0;--sand:#EFE8D8;--taupe:#1F3A33;--brown:#1F3A33;--ink:#2C3A35;--gold:#C9A96E;--gold2:#E6CC99;
+  background:#0F1F1B;font-family:Montserrat,Poppins,system-ui,sans-serif}
+.v2 h1,.v2 h2,.v2 h3,.v2 .cd b,.v2 .ev-d b,.v2 .guest b{font-family:'Playfair Display',Georgia,serif}
+.v2 h2{font-size:1.9rem;font-weight:400}
+.v2 h2::after{content:"";display:block;width:48px;height:1px;background:var(--gold);margin:12px auto 0}
+.v2 .taupe h2{color:var(--gold2)}
+.v2 .btn{background:var(--gold);color:#1F3A33}
+.v2 .btn.ghost{background:transparent;color:var(--gold);border:1px solid var(--gold)}
+.v2 .leaf,.v2 .taupe .leaf{color:var(--gold);opacity:.6}
+.v2 .music{background:var(--gold);color:#1F3A33}
+
+/* Cover: teks di tengah foto penuh */
+.v2 .cover{justify-content:center;text-align:center}
+.v2 .veil{background:linear-gradient(rgba(10,30,24,.5),rgba(10,30,24,.78))}
+.v2 .wave{display:none}
+.v2 .cover-body{background:transparent;color:#fff;padding:0 24px 40px}
+.v2 .cover small{color:var(--gold2);letter-spacing:.3em}
+.v2 .cover h1{font-size:3rem;font-weight:400;font-style:italic;margin:10px 0}
+.v2 .guest{border-top:1px solid rgba(230,204,153,.5);border-bottom:1px solid rgba(230,204,153,.5);padding:14px 0;margin:22px auto;max-width:280px}
+.v2 .parts i{background:rgba(230,204,153,.85)}
+
+/* Hitung mundur */
+.v2 .cd div{background:rgba(255,255,255,.06);border:1px solid rgba(230,204,153,.45);border-radius:6px}
+.v2 .cd b{color:var(--gold2);font-weight:400}
+
+/* Foto mempelai: bulat dengan cincin emas tipis */
+.v2 .ph{width:200px;margin-bottom:38px}
+.v2 .ph::before,.v2 .mp.alt .ph::before{inset:-9px;border:1px solid var(--gold);border-radius:50%;transform:none}
+.v2 .ph-in{aspect-ratio:1/1;border-radius:50%;box-shadow:0 10px 26px rgba(15,31,27,.3)}
+.v2 .mp h3{font-style:italic;font-weight:400}
+.v2 .amp{font-family:'Playfair Display',Georgia,serif;font-style:italic;color:var(--gold)}
+
+/* Kartu acara: kartu hijau terpusat, tanggal dalam satu baris */
+.v2 .ev{display:flex;flex-direction:column;align-items:center;text-align:center;background:#1F3A33;color:#F4EBD6;border-radius:4px;padding:36px 22px 30px;margin:0 auto 30px;box-shadow:0 0 0 5px var(--cream),0 0 0 6px var(--gold)}
+.v2 .ev-i{display:contents}
+.v2 .ev-i h3{order:1;color:var(--gold2);font-size:1.9rem;font-weight:400;font-style:italic;margin-bottom:8px}
+.v2 .ev-d{order:2;flex-direction:row;gap:14px;width:100%;background:transparent;color:var(--gold2);padding:14px 0;margin:6px 0 16px;border-top:1px dashed rgba(230,204,153,.5);border-bottom:1px dashed rgba(230,204,153,.5)}
+.v2 .ev-d b{font-size:2.8rem;font-weight:400;color:#fff;padding:0 14px;border-left:1px solid var(--gold);border-right:1px solid var(--gold)}
+.v2 .ev-i .t{order:3;background:transparent;border:1px solid var(--gold);color:var(--gold2)}
+.v2 .ev-i p{order:4;color:#F4EBD6}
+.v2 .ev-i .btn{order:5}
+
+/* Kartu kaca */
+.v2 .glass{background:#fff;box-shadow:0 8px 24px rgba(31,58,51,.1)}
+.v2 .taupe .glass{background:rgba(255,255,255,.07);color:#fff;border:1px solid rgba(230,204,153,.4);box-shadow:none}
+.v2 .taupe .glass h2{color:var(--gold2)}
+.v2 .gal img{border-radius:4px}
+.v2 .tm p{font-family:'Playfair Display',Georgia,serif;font-weight:400;font-style:italic;border-bottom-color:var(--gold)}
+.v2 .closing img{border-radius:200px 200px 16px 16px}
+.v2 .ok{color:#2f7a52}
