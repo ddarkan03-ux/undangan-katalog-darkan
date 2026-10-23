@@ -32,7 +32,7 @@ window.CONFIG = {
   },
 
   /* === FOTO (simpan di assets/img/, format .webp atau .jpg) === */
-  fotoCover: ["assets/img/cover-1.webp", "assets/img/cover-2.webp"],
+  fotoCover: ["assets/img/cover1.webp", "assets/img/cover2.webp"],
 
   /* === PEMBUKA === */
   pembuka: "Assalamu'alaikum Warahmatullahi Wabarakatuh. Tanpa mengurangi rasa hormat, kami mengundang Bapak/Ibu/Saudara/i untuk menghadiri acara pernikahan kami.",
@@ -44,14 +44,14 @@ window.CONFIG = {
     nama: "Raka Pratama",
     anak: "Putra pertama dari",
     ortu: "Bapak Nama Ayah & Ibu Nama Ibu",
-    foto: "assets/img/darkan.webp"
+    foto: "assets/img/pria.webp"
   },
   wanita: {
     panggilan: "Alya",
     nama: "Alya Putri",
     anak: "Putri kedua dari",
     ortu: "Bapak Nama Ayah & Ibu Nama Ibu",
-    foto: "assets/img/mila.webp"
+    foto: "assets/img/wanita.webp"
   },
 
   /* === AKAD NIKAH ===
@@ -81,7 +81,7 @@ window.CONFIG = {
   },
 
   /* === LOVE STORY (bisa tambah/kurangi blok) === */
-  loveStoryFoto: "assets/img/memori.webp",
+  loveStoryFoto: "assets/img/momen.webp",
   loveStory: [
     { judul: "Pertemuan", teks: "Kami dipertemukan lewat cara yang sederhana. Dari perkenalan singkat, kami mulai saling bercerita dan menemukan banyak kecocokan yang tidak pernah kami duga." },
     { judul: "Lamaran", teks: "Seiring waktu, kami yakin untuk melangkah lebih serius. Dengan niat baik dan restu kedua orang tua, kami memutuskan untuk saling mengikat janji." },
@@ -90,8 +90,8 @@ window.CONFIG = {
 
   /* === GALERI === */
   galeri: [
-    "assets/img/cover.webp", "assets/img/galeri 2.webp", "assets/img/mila.webp",
-    "assets/img/cover-1.webp", "assets/img/galeri 5.webp", "assets/img/cover-2.webp"
+    "assets/img/galeri.webp", "assets/img/galeri2.webp", "assets/img/galeri3.webp",
+    "assets/img/galeri4.webp", "assets/img/galeri5.webp", "assets/img/galeri6.webp"
   ],
 
   /* === WEDDING GIFT ===
